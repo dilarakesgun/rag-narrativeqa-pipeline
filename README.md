@@ -41,8 +41,8 @@ The two chunking strategies are compared on the same 116-question set:
 
 | Strategy             | BLEU            | ROUGE-L F1      |
 |----------------------|-----------------|-----------------|
-| Fixed-size chunking  | _add your value_ | _add your value_ |
-| Sentence-based       | _add your value_ | _add your value_ |
+| Fixed-size chunking  | 0.0115 | 0.0585|
+| Sentence-based       | 0.0099| 0.0577 |
 
 > Fill these in from your final notebook output, and keep the comparison chart
 > the notebook generates — it makes the result easy to read at a glance.
