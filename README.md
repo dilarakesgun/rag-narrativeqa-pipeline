@@ -43,6 +43,7 @@ The two chunking strategies are compared on the same 116-question set:
 |----------------------|-----------------|-----------------|
 | Fixed-size chunking  | 0.0115 | 0.0585|
 | Sentence-based       | 0.0099| 0.0577 |
+
 On this small-model setup, fixed-size chunking performed marginally better than sentence-based across both metrics, suggesting chunk boundary strategy had limited impact at this scale.
 
 ## How to Run
