@@ -5,7 +5,7 @@ A Retrieval-Augmented Generation (RAG) pipeline built over a public-domain novel
 benchmark. The project compares **two chunking strategies** end-to-end and
 evaluates their impact on answer quality using **BLEU** and **ROUGE-L**.
 
-> Built as a university course project. Demonstrates a full RAG stack:
+ Demonstrates a full RAG stack:
 > data preprocessing → chunking → embeddings → vector search → reranking →
 > LLM generation → evaluation.
 
@@ -44,8 +44,6 @@ The two chunking strategies are compared on the same 116-question set:
 | Fixed-size chunking  | 0.0115 | 0.0585|
 | Sentence-based       | 0.0099| 0.0577 |
 
-> Fill these in from your final notebook output, and keep the comparison chart
-> the notebook generates — it makes the result easy to read at a glance.
 
 ## How to Run
 
